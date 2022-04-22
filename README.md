@@ -1,12 +1,19 @@
 # 50.001-The-Scheduler
 
 Team members:
+
 Fong Shengrong, Josiah - 1005465
+
 Ghate,Anshu Arun - 1005268
+
 Goh Nicholas - 1005194
+
 Suzette Leo Mei Yen - 1005239
+
 Lee Eharn Natthan - 1005006
+
 Chng Sze Han (Zhuang Zihan) - 1004991
+
 Ng Minzheng Joel - 1005032
 
 ---------------------------------------
