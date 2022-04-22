@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "306432893564",
+    "firebase_url": "https://info-sys-calendar-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "info-sys-calendar-app",
+    "storage_bucket": "info-sys-calendar-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306432893564:android:5bd9d7e4dd0fe2f4b01ff9",
+        "android_client_info": {
+          "package_name": "com.company"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306432893564-cbai14m3dpv0hr2bl6ti0ghcuonuqhe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOyNNkot7mcZV6Q9XfOzkN8FNYTd52WXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306432893564-cbai14m3dpv0hr2bl6ti0ghcuonuqhe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306432893564:android:f9c6b73f28972e75b01ff9",
+        "android_client_info": {
+          "package_name": "com.example.InfoSys_Scheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306432893564-cbai14m3dpv0hr2bl6ti0ghcuonuqhe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOyNNkot7mcZV6Q9XfOzkN8FNYTd52WXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306432893564-cbai14m3dpv0hr2bl6ti0ghcuonuqhe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306432893564:android:7c615c7e30997e3db01ff9",
+        "android_client_info": {
+          "package_name": "com.example.infosys_50001"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306432893564-cbai14m3dpv0hr2bl6ti0ghcuonuqhe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOyNNkot7mcZV6Q9XfOzkN8FNYTd52WXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306432893564-cbai14m3dpv0hr2bl6ti0ghcuonuqhe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

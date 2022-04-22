@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="@drawable/back_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome_Message_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="Welcome User!"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/login_card"
+        android:layout_width="350dp"
+        android:layout_height="112dp"
+        android:layout_rowWeight="1"
+        android:layout_margin="50dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:elevation="6dp"
+                android:padding="16dp"
+                android:src="@drawable/login" />
+
+            <Button
+                android:id="@+id/loginhome"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="217dp"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="Login Here!"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="350dp"
+        android:layout_height="112dp"
+        android:layout_rowWeight="1"
+        android:layout_margin="50dp"
+        android:background="#FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:elevation="6dp"
+                android:padding="16dp"
+                android:src="@drawable/sign_up" />
+
+            <Button
+                android:id="@+id/signuphome"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="217dp"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="Sign Up Here!"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

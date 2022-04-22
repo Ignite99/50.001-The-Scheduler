@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Animatedlogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id = "@+id/originLine"
+            android:layout_width="20dp"
+            android:layout_height= "50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:background="#6DFFFF"/>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:background="#43C5C5"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/originLine"/>
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="20dp"
+            android:layout_height="165dp"
+            android:background="#1B8787"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/line1"/>
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="20dp"
+            android:layout_height="140dp"
+            android:background="#039F4E"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/line2"/>
+
+        <View
+            android:id="@+id/line4"
+            android:layout_width="20dp"
+            android:layout_height="230dp"
+            android:background="#28C875"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/line3"/>
+
+        <View
+            android:id="@+id/line5"
+            android:layout_width="20dp"
+            android:layout_height="275dp"
+            android:background="#51FBA3"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/line4"/>
+
+        <View
+            android:id="@+id/line6"
+            android:layout_width="20dp"
+            android:layout_height="180dp"
+            android:background="#A0FFCE"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/line5"/>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Login_sayNameOfApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/audiowide"
+            android:text="Scheduler"
+            android:textColor="#535353"
+            android:textSize="55dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id = "@+id/groupNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Group 6"
+            android:textColor="#474747"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
