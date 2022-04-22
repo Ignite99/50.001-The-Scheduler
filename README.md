@@ -1,5 +1,5 @@
 # 50.001-The-Scheduler
-=======================================
+
 Team members:
 Fong Shengrong, Josiah - 1005465
 Ghate,Anshu Arun - 1005268
